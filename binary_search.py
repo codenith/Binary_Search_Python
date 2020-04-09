@@ -33,7 +33,7 @@ def main_function():
             input(f"Enter the  desired value of index  {index} :  "))
         list_elements.append(element_value)
     item = int(input("Enter the item to be searched: "))
-    list_elements = sorted(list_elements)
+    list_elements = sorted(list_elements)       #Binary Search will only in a sorted list.
     start_value = list_elements[0]  # value at index 0 stored at start_value
     # value at the last index is stored at the end_value
     end_value = len(list_elements)-1
